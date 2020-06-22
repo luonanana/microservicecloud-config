@@ -1,17 +1,17 @@
 spring:
   profiles:
     active:
-    - dev
+    - debug
 ---
 spring:
-  profiles: dev
+  profiles: debug
   application:
-    name: microservicecloud-config-atguigu-dev
+    name: microservicecloud-config-atguigu-debug
 ---
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-atguigu-dev
+    name: microservicecloud-config-atguigu-test
 
 #请保存utf-8格式
 
